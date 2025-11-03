@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta4 Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Meta4 File Downloader</h1>
+            <p class="subtitle">Laden Sie Meta4-Dateien hoch und verwalten Sie Ihre Downloads</p>
+        </header>
+
+        <main>
+            <!-- Upload Area -->
+            <section class="upload-section">
+                <div id="dropZone" class="drop-zone">
+                    <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                    <p class="drop-text">Meta4-Datei hier ablegen oder klicken zum Auswählen</p>
+                    <input type="file" id="fileInput" accept=".meta4,.metalink" hidden>
+                </div>
+            </section>
+
+            <!-- File Info Section -->
+            <section id="fileInfoSection" class="file-info-section hidden">
+                <h2>Datei-Informationen</h2>
+                <div id="fileInfo" class="file-info"></div>
+            </section>
+
+            <!-- Files List -->
+            <section id="filesSection" class="files-section hidden">
+                <h2>Verfügbare Dateien</h2>
+                <div id="filesList" class="files-list"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Meta4/Metalink File Downloader - Unterstützt Metalink 4.0 Format</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
