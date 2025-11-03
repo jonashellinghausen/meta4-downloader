@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink" generator="Meta4 Generator v1.0">
+  <published>2025-11-03T10:00:00Z</published>
+  <updated>2025-11-03T10:00:00Z</updated>
+
+  <file name="ubuntu-24.04-desktop-amd64.iso">
+    <size>5723891712</size>
+    <language>en</language>
+    <os>Linux</os>
+
+    <hash type="md5">8c5fc8c5e4e00bb00c4b66e6d0f0c6d3</hash>
+    <hash type="sha-1">f3dd3d03f3b3c4d3c4f3e3f3a3e3b3c3e3d3e3f3</hash>
+    <hash type="sha-256">a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2</hash>
+
+    <url priority="1" location="de">http://de.releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso</url>
+    <url priority="2" location="us">http://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso</url>
+    <url priority="3" location="fr">http://fr.releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso</url>
+  </file>
+
+  <file name="ubuntu-24.04-server-amd64.iso">
+    <size>2365587456</size>
+    <language>en</language>
+    <os>Linux</os>
+
+    <hash type="md5">d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9</hash>
+    <hash type="sha-256">b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3</hash>
+
+    <url priority="1" location="de">http://de.releases.ubuntu.com/24.04/ubuntu-24.04-server-amd64.iso</url>
+    <url priority="2" location="us">http://releases.ubuntu.com/24.04/ubuntu-24.04-server-amd64.iso</url>
+  </file>
+
+  <file name="documentation.pdf">
+    <size>5242880</size>
+    <language>en</language>
+
+    <hash type="md5">e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2</hash>
+
+    <url priority="1">https://help.ubuntu.com/24.04/ubuntu-help/documentation.pdf</url>
+  </file>
+</metalink>
